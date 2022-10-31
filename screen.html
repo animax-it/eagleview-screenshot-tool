@@ -23,8 +23,8 @@
                 + currentdate.getHours() + ":"  
                 + currentdate.getMinutes() + ":" 
                 + currentdate.getSeconds();
-            a.download = container.textContent.concat("_").concat(datetime).concat(".png");
-            a.href = canvas.toDataURL("image/png");
+            a.download = container.textContent.concat("_").concat(datetime).concat(".jpeg");
+            a.href = canvas.toDataURL("image/jpeg");
             a.click();
   });
         }
