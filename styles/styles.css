@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    background-color: #fff;
+    padding-left: 15px;
+    background-image: url("../images/hh.png");
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    position: relative;
+    top: 530px;
+    left: 350px;
+    
+}
+
+.btn-primary {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+
+
+h1 span{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 2;
+    color: inherit;
+    margin-top: 40px;
+    margin-left: 40%;
+    text-shadow: #333;
+    background-color: #fff;
+    font-size: 25px;
+    display: inline-block;
+}
+
+h1 small{
+    font-size: 50%;
+}
+
+h1 small {
+    font-weight: 400;
+    line-height: 1;
+    color: #777;
+    display: block;
+   
+}
+.specific{
+    background-color: none;
+}
+
+p a{
+padding: 155px;
+}
+
+p span{
+    
+    
+    background-color: aliceblue;
+    margin-left: 5.8%;
+    position: relative;
+    top: -27.5px;
+    font-size: 13px;
+    padding-right: 30px;
+
+    }
