@@ -6,10 +6,10 @@ body {
     color: #333;
     background-color: #fff;
     padding-left: 15px;
-    background-image: url("../images/hh.png");
+    /* background-image: url("../images/hh.png");
     background-repeat: no-repeat; 
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
     
 }
 
@@ -33,9 +33,9 @@ body {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 20px;
-    position: relative;
+    /* position: relative;
     top: 530px;
-    left: 350px;
+    left: 350px; */
     
 }
 
@@ -88,5 +88,38 @@ p span{
     top: -27.5px;
     font-size: 13px;
     padding-right: 30px;
+    display: none;
 
     }
+
+    .specific {
+        position: relative;
+        width: 100%;
+        
+      }
+      
+      .specific img {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .specific .btn {
+        position: absolute;
+        top: 91%;
+        left: 24%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: rgb(60, 148, 248);
+        color: white;
+        font-size: 16px;
+        /* padding: 12px 24px; */
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        padding: 0.8%;
+      }
+      
+      .specific .btn:hover {
+        background-color: black;
+      }
